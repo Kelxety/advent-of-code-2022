@@ -2,7 +2,6 @@ export const x = "";
 const input = await Deno.readTextFile("./inputDay2a.txt")
 
 const bracket = input.split(/\r?\n/)
-const array: number[] = [];
 let scoreHighest = 0;
 
 bracket.map((line) => {
